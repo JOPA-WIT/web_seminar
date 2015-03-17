@@ -3,22 +3,41 @@
 	<head>
 		<style>
 			body {
-				font-size: 50pt;
+				font-size: 20pt;
 			}
 			
 			div {
-				margin: 50px;
+				text-align: center;
+				width: 6em;
 				border: 5px solid black;
-				padding: 50px;
+				margin: 5px;
 				color: red;
+				background-color: white;
+			}
+			
+			#first {
+				border-color: green;
+				position: absolute;
+				left: 250px;
+				top: 10px;
+				z-index: 2;
+			}
+			
+			#second {
+				position: absolute;
+				left: 260px;
+				border-color: blue;
+				top: 30px;
+				z-index: 1;
 			}
 			
 		</style>
 	</head>
 	<body>
-		<div>
-			Hello World
+		<div id="first">
+			First
 		</div>
+		<div id="second">Second</div>
 	</body>
 
 </html>
