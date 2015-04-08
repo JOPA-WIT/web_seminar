@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Import Demo
+		</title>
+		<link rel="contents" href="import.html">
+	</head>
+	<body>
+	<script>
+	
+		function supportsImports() {
+  return 'import' in document.createElement('link');
+}
+
+if (supportsImports()) {
+  alert('yay');
+} else {
+ alert('ahw');
+}
+				var documentLink = document.querySelector('link[rel="contents"');
+				var content = documentLink.import;
+				// Grab DOM from warning.html's document.
+				var el = content.querySelector('.Paragraph');
+				document.body.appendChild(el.cloneNode(true));
+			</script>
+		<div class="Import">
+			
+		</div>
+	</body>
+</html>
