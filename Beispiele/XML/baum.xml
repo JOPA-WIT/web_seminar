@@ -1,0 +1,11 @@
+<Stamm>
+  <Ast>
+    <Blatt Adern="7">Grün</Blatt>
+    <Blatt Adern="9">Braun</Blatt>
+  </Ast>
+  <Ast>
+    <Blatt Adern="5">Angefressen</Blatt>
+    <Blatt Adern="7">Abgefallen</Blatt>
+    <Blatt>Verwelkt</Blatt>
+  </Ast>
+</Stamm>
